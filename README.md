@@ -14,33 +14,18 @@ This project contains two different implementations of the LineServer problem:
 
 * [Python 3.8](https://www.python.org/downloads/)
 * [PyEnv](https://github.com/pyenv/pyenv)
-* [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 * [git](https://git-scm.com/downloads)
 * [flask](http://flask.pocoo.org/)
 
 
 # Installation
 
-To install requirements in a virtual environment begin by running
-
-    $ cd line_server
-    $ virtualenv venv
-
-Activate virtual environment
-
-    $ source venv/bin/activate
-
-
-Followed by installing requirements:
-
-    $ pip3 install -r requirements.txt
-    
-
-This is a Flask application which comes with some built-in commands.   
+To install requirements in a virtual environment begin by running 
+    $ ./install.sh
 
 # Running
 To start this application, run 
-    $ FLASK_APP=src/app.py flask run
+    $ $ ./run.sh
      * Running on http://127.0.0.1:5000/
      
 # Access
@@ -91,3 +76,10 @@ Load testing with Siege
     $ siege -c 255 -b -f test_urls.txt -r 1000
  
 ### CACHED
+
+# Deinstallation
+
+To install requirements in a virtual environment begin by running 
+    $ ./uninstall.sh
+
+Then remove the project folder

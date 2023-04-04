@@ -1,4 +1,4 @@
-#! /bin/sh.
+#! /bin/bash
 
 pyenv virtualenv line_server
 pyenv activate line_server
