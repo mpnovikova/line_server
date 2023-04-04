@@ -21,11 +21,13 @@ This project contains two different implementations of the LineServer problem:
 # Installation
 
 To install requirements in a virtual environment begin by running 
+
     $ ./install.sh
 
 # Running
 To start this application, run 
-    $ $ ./run.sh
+
+    $ ./run.sh
      * Running on http://127.0.0.1:5000/
      
 # Access
