@@ -82,6 +82,7 @@ Load testing with Siege
 # Deinstallation
 
 To install requirements in a virtual environment begin by running 
+
     $ ./uninstall.sh
 
 Then remove the project folder
